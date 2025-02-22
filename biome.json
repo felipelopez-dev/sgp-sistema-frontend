@@ -1,0 +1,18 @@
+{
+    "formatter": {
+      "enabled": true,
+      "indentStyle": "tab",
+      "lineWidth": 120,
+      "quoteStyle": "single",
+      "semicolons": "always"
+    },
+    "linter": {
+      "enabled": true,
+      "rules": {
+        "recommended": true,
+        "noUnusedVariables": "error",
+        "noConsole": "warn"
+      }
+    }
+}
+  

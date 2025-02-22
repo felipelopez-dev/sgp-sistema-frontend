@@ -1,0 +1,60 @@
+.sgp-header {
+	align-items: center;
+	background-color: var(--bg-secondary);
+	border-bottom: 1px solid var(--border-primary);
+	display: flex;
+	height: 6.5rem;
+	justify-content: space-between;
+	padding: 1rem 3rem;
+	position: fixed;
+	width: 100%;
+}
+
+.sgp-header__brand {
+	align-items: center;
+	display: flex;
+}
+
+.sgp-header__vertical-line {
+	background-color: var(--bg-tertiary);
+	height: 4rem;
+	margin-left: 2rem;
+	width: 0.1rem;
+}
+
+.sgp-header__logo {
+	height: 15rem;
+	margin-left: -1rem;
+	width: 15rem;
+}
+
+.sgp-header__list {
+	align-items: center;
+	display: flex;
+	gap: 3rem;
+}
+
+.sgp-header__link {
+	color: var(--text-title);
+	cursor: pointer;
+	font-size: 2rem;
+	font-weight: 500;
+}
+
+.sgp-header__link:hover {
+	border-bottom: 0.3rem solid var(--bg-button-hover);
+	color: var(--text-button-hover);
+  padding-top: 2rem;
+}
+
+.sgp-header__btn-light-dark {
+	background-color: red;
+	border-radius: 3rem;
+	cursor: pointer;
+	height: 3rem;
+	padding: 0.2rem;
+	position: relative;
+	width: 7rem;
+}
+
+
