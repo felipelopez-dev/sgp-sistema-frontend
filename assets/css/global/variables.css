@@ -2,21 +2,22 @@
 	font-family: Inter;
 	font-style: normal;
 	font-weight: 400;
-	src: url('./fonts/Inter-Regular.woff2') format('woff2'),
-			 url('./fonts/Inter-Regular.woff') format('woff');
+	src: url('/assets/fonts/Inter_18pt-Regular.woff2') format('woff2'),
+			 url('/assets/fonts/Inter_18pt-Regular.woff') format('woff');
 }
 
 @font-face {
 	font-family: Inter;
 	font-style: normal;
 	font-weight: 500;
-	src: url('./fonts/Inter-Medium.woff2') format('woff2'),
-			 url('./fonts/Inter-Medium.woff') format('woff');
+	src: url('/assets/fonts/Inter_18pt-Medium.woff2') format('woff2'),
+			 url('/assets/fonts/Inter_18pt-Medium.woff') format('woff');
 }
 
 :root {
 	/* Color Palette */
 	--color-black: #000;
+	--color-dark-slate: #24272f;
 	--color-charcoal-gray: #353841;
 	--color-slate-gray: #5f6268;
 	--color-cloudy-gray: #c0c2c7;
@@ -33,7 +34,11 @@
 
 	/* Text Colors */
 	--text-title: var(--color-black);
+	--text-title-form: var(--color-white);
+	--text-paragraph-form: var(--color-white);
+	--text-paragraph-placeholder: var(--color-black);
 	--text-paragraph: var(--color-charcoal-gray);
+	--text-underline: var(--color-light-blue);
 	--text-button: var(--color-white);
 	--text-button-hover: var(--color-royal-blue);
 
@@ -41,19 +46,27 @@
 	--bg-primary: var(--color-white);
 	--bg-secondary: var(--color-ice-gray);
 	--bg-tertiary: var(--color-cloudy-gray);
+	--bg-quaternary: var(--color-dark-blue);
+	--bg-quinary: var(--color-black);
+	--bg-senary: var(--color-medium-blue);
+	--bg-septenary: var(--color-dark-slate);
+	--bg-octonary: var(--color-royal-blue);
+	--bg-nonary: var(--color-light-blue);
 	--bg-button: var(--color-royal-blue);
-	--bg-button-hover: var(--color-royal-blue);
-	--bg-button-hover-secondary: var(--color-medium-blue);
+	--bg-button-hover: var(--color-medium-blue);
+	--bg-button-hover-secondary: var(--color-dark-blue);
+
 
 	/* Border Colors */
 	--border-primary: var(--color-lavender-mist);
+	--border-segundary: var(var(--color-black));
 	--border-hover: var(--color-medium-blue);
 
 	/* Box Shadow */
-	--shadow-primary: rgb(0 0 0 / 20%);
+	--shadow-primary: rgb(0 0 0 / 10%);
+	--shadow-segundary: rgb(0 0 0 / 20%);
+	--shadow-quaternary: rgb(0 0 0 / 30%);
+	--shadow-quintennial: rgb(0 0 0 / 35%);
 
 	font-size: 62.5%;
 }
-
-
-
