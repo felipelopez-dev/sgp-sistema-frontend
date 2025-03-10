@@ -25,7 +25,6 @@
 	height: 45rem;
 	justify-content: center;
 	max-width: 40rem;
-	padding-top: 3rem;
 	width: 100%;
 }
 
@@ -35,8 +34,6 @@
 	flex-wrap: wrap;
 	font-size: 3.1rem;
 	font-weight: 500;
-	position: fixed;
-	top: 13rem;
 }
 
 .sgp-calculate__form.active {
@@ -47,12 +44,12 @@
 	font-size: 1.9rem;
 	gap: 1rem;
 	line-height: 3rem;
-	margin-top: 8rem;
 }
 
 .sgp-calculate__form {
 	display: none;
 }
+
 
 .sgp-calculate__form-carcass {
 	margin-bottom: 4rem;
@@ -129,12 +126,15 @@ input[type="number"]::-webkit-outer-spin-button {
 	margin: 0;
 }
 
+.pig-carcass--button {
+	margin-bottom: 0.6rem;
+}
+
 .sgp-calculate__area-button {
 	align-items: center;
 	display: flex;
-	gap: 5rem;
+	gap: 3rem;
 	justify-content: center;
-	margin-bottom: 4rem;
 	width: 100%;
 }
 
@@ -146,7 +146,6 @@ input[type="number"]::-webkit-outer-spin-button {
 	color: var(--text-button);
 	cursor: pointer;
 	font-size: 1.8rem;
-	outline: none;
 	padding: 2rem;
 	transition: transform 0.4s ease;
 	width: 15rem;
@@ -163,7 +162,7 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .sgp-calculate__doubt-card {
-	margin-bottom: 3rem;
+	margin-top: 3rem;
 	text-align: center;
 }
 

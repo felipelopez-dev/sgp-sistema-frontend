@@ -1,8 +1,9 @@
 const minMax = (event) => {
-	const input = event.target; // Captura o input específico que acionou o evento
-	const min = parseInt(input.min); // Obtém o valor mínimo do input
-	const max = parseInt(input.max); // Obtém o valor máximo do input
-	const value = parseInt(input.value); // Obtém o valor atual digitado pelo usuário
+
+	const input = event.target;
+	const min = parseInt(input.min);
+	const max = parseInt(input.max);
+	const value = parseInt(input.value);
 
 	if (value < min) {
 			input.value = min;

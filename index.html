@@ -49,37 +49,41 @@
     <link rel="icon" type="image/svg+xml" href="assets/img/favicons/favicon.svg">
 
 		<!-- Css -->
-    <link rel="stylesheet" href="assets/css/global/global.css">
-		<link rel="stylesheet" href="assets/css/pages/index/index.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+		<link rel="stylesheet" href="assets/css/variables.css">
+		<link rel="stylesheet" href="assets/css/dark-light.css">
+		<link rel="stylesheet" href="assets/css/index.css">
 </head>
 
 <body>
 
-	<header class="sgp-header">
-			<a href="/index.html" class="sgp-header__brand">
-				<img src="assets/img/global/svg/brand/brand.svg" class="sgp-header__logo" alt="Logotipo do SGP">
-				<div class="sgp-header__vertical-line"></div>
-			</a>
-			<nav class="sgp-header__menu">
-				<ul class="sgp-header__list">
-					<li class="sgp-header__item">
-							<a href="/index.html" class="sgp-header__link">Início</a>
-					</li>
-					<li class="sgp-header__item">
-						<a href="/pages/calculate/calculate.html" class="sgp-header__link">Calcular</a>
-					</li>
-					<li class="sgp-header__item">
-							<a href="/pages/guide/guide.html" class="sgp-header__link">Guia</a>
-					</li>
-				</ul>
-		</nav>
-		<button class="sgp-header__btn-light-dark">
+	<header class="sgp-header" role="banner">
+		<a href="index.html" class="sgp-header__brand" aria-label="Voltar para a página inicial">
+			<img src="assets/img/global/svg/brand/brand.svg" class="sgp-header__logo"  tabindex="1" alt="Logotipo do SGP">
+			<div class="sgp-header__vertical-line"></div>
+		</a>
+		<nav class="sgp-header__menu" role="navigation" aria-label="Menu principal">
+			<ul class="sgp-header__list">
+				<li class="sgp-header__item">
+						<a href="index.html" class="sgp-header__link" tabindex="2">Início</a>
+				</li>
+				<li class="sgp-header__item">
+					<a href="pages/calculate/calculate.html" class="sgp-header__link" tabindex="3">Calcular</a>
+				</li>
+				<li class="sgp-header__item">
+						<a href="pages/guide/guide.html" class="sgp-header__link" tabindex="4">Guia</a>
+				</li>
+			</ul>
+	  </nav>
+	  <button class="sgp-header__btn-light-dark" aria-label="Alternar entre modo claro e escuro">
 			<div class="sgp-header__rail-mode">
-				<img src="assets/img/global/svg/icons/ui/light.svg" class="sgp-header__img-light icon--dark-light">
-				<img src="assets/img/global/svg/icons/ui/dark.svg" class="sgp-header__img-dark icon--dark-light">
+				<img src="assets/img/global/svg/icons/ui/light.svg"
+				tabindex="5" class="sgp-header__img-light icon--dark-light" alt="Modo claro">
+				<img src="assets/img/global/svg/icons/ui/dark.svg" alt="Modo escuro" tabindex="6"
+				class="sgp-header__img-dark icon--dark-light">
 			</div>
-		</button>
-	</header>
+	  </button>
+  </header>
 
 	<main class="sgp-main">
 		<div class="sgp-main__area">
@@ -91,14 +95,17 @@
 					Simplifique sua gestão com um sistema que estima, organiza e facilita seu fechamento diário, garantindo mais
 					precisão e produtividade.
 				</p>
-				<a href="/pages/calculate/calculate.html" class="sgp-main__button">
+				<a href="pages/calculate/calculate.html" class="sgp-main__button"
+				aria-label="Botão para ir na página de calculo" tabindex="7">
 					Vamos lá Calcular ?
 				</a>
 			</div>
 			<div class="sgp-main__right">
 				<div class="sgp-main__area-img">
-					<img class="sgp-main__img-brand-black" src="assets/img/global/svg/brand/brand-with-text.svg" alt="Imagem da logotipo SGP">
-					<img class="sgp-main__img-brand-white" src="assets/img/global/svg/brand/brand-color-text-white.svg" alt="Imagem da logotipo SGP">
+					<img class="sgp-main__img-brand-black" src="assets/img/global/svg/brand/brand-with-text.svg"
+					alt="Imagem da logotipo SGP">
+					<img class="sgp-main__img-brand-white" src="assets/img/global/svg/brand/brand-color-text-white.svg"
+					alt="Imagem da logotipo SGP">
 				</div>
 			</div>
 		</div>
