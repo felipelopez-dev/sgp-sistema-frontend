@@ -1,4 +1,4 @@
-/* main page header */
+/* Header */
 .sgp-header {
 	align-items: center;
 	background-color: var(--bg-secondary);
@@ -16,17 +16,17 @@
 	display: flex;
 }
 
+.sgp-header__logo {
+	height: 15rem;
+	margin-left: -1rem;
+	width: 15rem;
+}
+
 .sgp-header__vertical-line {
 	background-color: var(--bg-tertiary);
 	height: 4rem;
 	margin-left: 2rem;
 	width: 0.1rem;
-}
-
-.sgp-header__logo {
-	height: 15rem;
-	margin-left: -1rem;
-	width: 15rem;
 }
 
 .sgp-header__list {
@@ -41,15 +41,16 @@
 	cursor: pointer;
 	font-size: 2rem;
 	font-weight: 500;
+	transition: color 0.3s ease;
 }
 
 .sgp-header__link:hover {
 	border-bottom: 0.3rem solid var(--bg-button-hover);
 	color: var(--text-button-hover);
-  padding-top: 2rem;
+	padding-top: 2rem;
 }
 
-/* dark and light button */
+/* Light/dark Button */
 .sgp-header__btn-light-dark {
 	align-items: center;
 	border: none;
@@ -61,6 +62,7 @@
 	cursor: pointer;
 	display: flex;
 	height: 4rem;
+	justify-content: space-between;
 	outline: none;
 	padding: 0.5rem;
 	position: relative;
@@ -80,15 +82,14 @@
 	width: 3rem;
 }
 
-.sgp-header__img-light {
+.sgp-header__img-light,
+.sgp-header__img-dark {
 	height: 2rem;
 	width: 2rem;
 }
 
 .sgp-header__img-dark {
 	display: none;
-	height: 3rem;
-	width: 3rem;
 }
 
 .dark-mode .sgp-header__btn-light-dark {
@@ -103,8 +104,7 @@
 	transform: translateX(4rem);
 }
 
-
-/* Home page main */
+/* Main */
 .sgp-main {
 	height: calc(100% - 6.5rem);
 	width: 100%;
@@ -152,18 +152,19 @@
 	font-size: 1.8rem;
 	padding: 2rem;
 	text-align: center;
-	transition: transform 0.4s ease;
+	transition:
+		background-color 0.3s ease,
+		transform 0.4s ease;
 	width: 21rem;
+}
+
+.sgp-main__button:hover {
+	background-color: var(--bg-button-hover);
 }
 
 .sgp-main__button:active {
 	box-shadow: 0 0.4rem 1rem var(--shadow-segundary);
 	transform: translateY(0.5rem);
-}
-
-.sgp-main__button:hover {
-	background-color: var(--bg-button-hover);
-	box-shadow: 0 0.4rem 1rem var(--shadow-segundary);
 }
 
 .sgp-main__right {
@@ -172,7 +173,6 @@
 
 :is(.sgp-main__img-brand-black, .sgp-main__img-brand-white) {
 	animation: brand-animation 2s ease-in forwards;
-	height: auto;
 	margin-left: 4.3rem;
 	max-width: 70rem;
 	opacity: 0;

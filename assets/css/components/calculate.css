@@ -9,13 +9,13 @@
 .sgp-calculate__area-form {
 	align-items: center;
 	background: linear-gradient(
-    45deg,
-    var(--bg-quaternary) 0%,
-    var(--bg-quaternary) 40.0001%,
-    var(--bg-senary) 40.0001%,
-    var(--bg-senary) 60.0001%,
-    var(--bg-octonary) 60.0001%,
-    var(--bg-octonary) 100%
+		45deg,
+		var(--bg-quaternary) 0%,
+		var(--bg-quaternary) 40.0001%,
+		var(--bg-senary) 40.0001%,
+		var(--bg-senary) 60.0001%,
+		var(--bg-octonary) 60.0001%,
+		var(--bg-octonary) 100%
 	);
 	border-radius: 1rem;
 	box-shadow: 0 0 1rem 1rem var(--shadow-segundary);
@@ -36,6 +36,7 @@
 	font-weight: 500;
 }
 
+/* Form global - global */
 .sgp-calculate__form.active {
 	align-items: center;
 	color: var(--text-paragraph-form);
@@ -50,7 +51,7 @@
 	display: none;
 }
 
-
+/* Form carcass */
 .sgp-calculate__form-carcass {
 	margin-bottom: 4rem;
 }
@@ -64,6 +65,7 @@
 	width: 100%;
 }
 
+/* Form total cash */
 .sgp-calculate__total-cash {
 	margin-bottom: 12rem;
 }
@@ -72,6 +74,7 @@
 	font-size: 2rem;
 }
 
+/* Form cash withdrawal */
 .sgp-calculate__cash-withdrawal {
 	display: flex;
 	flex-direction: column;
@@ -101,6 +104,7 @@
 	flex: 1;
 }
 
+/* Inputs */
 .calculate--input {
 	background-color: var(--bg-secondary);
 	border: none;
@@ -126,10 +130,7 @@ input[type="number"]::-webkit-outer-spin-button {
 	margin: 0;
 }
 
-.pig-carcass--button {
-	margin-bottom: 0.6rem;
-}
-
+/* Buttons */
 .sgp-calculate__area-button {
 	align-items: center;
 	display: flex;
@@ -156,32 +157,38 @@ input[type="number"]::-webkit-outer-spin-button {
 	box-shadow: 0 0.4rem 1rem var(--shadow-segundary);
 }
 
+/* Button withdrawal */
+.pig-carcass--button {
+	margin-bottom: 0.6rem;
+}
+
 .cash-withdrawal--button {
 	margin-bottom: 1rem;
 	margin-top: 0;
 }
 
+/* Dout card */
 .sgp-calculate__doubt-card {
 	margin-top: 3rem;
 	text-align: center;
 }
 
 .sgp-calculate__doubt-card-change {
-  background-image: linear-gradient(90deg, var(--bg-octonary), var(--bg-primary));
-  background-position: 0 100%;
-  background-repeat: no-repeat;
-  background-size: 100% 3px;
-  padding-bottom: 2px;
-  text-decoration: none;
-	text-decoration-thickness: 3px;
+	background-image: linear-gradient(90deg, var(--bg-octonary), var(--bg-primary));
+	background-position: 0 100%;
+	background-repeat: no-repeat;
+	background-size: 100% 3px;
+	padding-bottom: 2px;
+	text-decoration: none;
 	transition: color 0.3s ease-in-out;
 }
 
 .sgp-calculate__doubt-card-change:hover {
-  background-image: linear-gradient(90deg, var(--bg-nonary), var(--bg-white));
+	background-image: linear-gradient(90deg, var(--bg-nonary), var(--bg-white));
 	color: var(--text-underline);
 }
 
+/* End result */
 .sgp-calculate__end-result {
 	font-size: 3rem;
 	margin-bottom: 13rem;
