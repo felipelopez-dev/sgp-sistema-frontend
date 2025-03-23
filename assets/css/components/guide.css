@@ -64,7 +64,7 @@
 /* Container */
 .sgp-container {
 	display: grid;
-	grid-template-columns: 30rem 1fr 25rem;
+	grid-template-columns: 30rem 3fr 1fr;
 	height: calc(100% - 6.5rem);
 	width: 100%;
 }
@@ -194,6 +194,7 @@
 .sgp-main__system-image {
 	height: 20rem;
 	margin: 1rem 0;
+	max-width: 90rem;
 	width: 100%;
 }
 
@@ -215,6 +216,7 @@
 
 .sgp-main__login-image {
 	margin: 2rem 0;
+	max-width: 90rem;
 	width: 100%;
 }
 
@@ -245,6 +247,7 @@
 }
 
 .sgp-main__value-image {
+	max-width: 90rem;
 	width: 100%;
 }
 

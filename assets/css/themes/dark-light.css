@@ -4,7 +4,7 @@ body.dark-mode {
 	--text-button: var(--color-white);
 	--text-button-hover: var(--color-royal-blue);
 
-	background-image: url("/assets/img/global/background/background_black.png");
+	background-image: url("../../img/global/background/background_black.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100%;
