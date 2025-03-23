@@ -37,6 +37,8 @@
 	--bg-septenary: var(--color-dark-slate);
 	--bg-octonary: var(--color-royal-blue);
 	--bg-nonary: var(--color-light-blue);
+	--bg-line-aside: var(--color-charcoal-gray);
+	--bg-scrollbar: var(--color-slate-gray);
 	--bg-ctrl-k: var(--color-ice-gray);
 	--bg-button: var(--color-royal-blue);
 	--bg-button-hover: var(--color-medium-blue);
