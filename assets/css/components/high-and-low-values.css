@@ -1,0 +1,82 @@
+.sgp-main__high-and-low-values {
+	height: 100%;
+	overflow: auto;
+	width: 100%;
+}
+
+.sgp-strong-hight {
+	color: var(--text-title);
+}
+
+.sgp-main__high-and-low-values::-webkit-scrollbar {
+	width: 1rem;
+}
+
+.sgp-main__high-and-low-values::-webkit-scrollbar-thumb {
+	background-color: var(--bg-scrollbar);
+	border-bottom-left-radius: 1rem;
+	border-top-left-radius: 1rem;
+	height: 15rem;
+}
+
+.sgp-main__high-and-low-values-title {
+	border-bottom: 0.1rem solid var(--bg-line-aside);
+	color: var(--text-title);
+	font-size: 3rem;
+	padding: 3rem;
+}
+
+.sgp-main__high-and-low-values-content {
+	padding: 3rem;
+}
+
+.sgp-main__high-and-low-values-item {
+	color: var(--text-paragraph);
+	line-height: 4rem;
+}
+
+.sgp-main__high-and-low-values-description {
+	color: var(--text-paragraph);
+	line-height: 4rem;
+	margin-left: 1rem;
+}
+
+.sgp-main__high-and-low-values-description::before {
+	content: '•';
+}
+
+.sgp-main__high-and-low-values-image {
+	padding-top: 2rem;
+	width: 100%;
+}
+
+.sgp-main__high-and-low-values-info {
+	padding: 3rem;
+}
+
+.sgp-main__high-and-low-values-info-title {
+	color: var(--text-title);
+	font-size: 2rem;
+	line-height: 4rem;
+}
+
+.sgp-main__high-and-low-values-info-table {
+	border-collapse: collapse;
+	margin-top: 2rem;
+	width: 100%;
+}
+
+:is(.sgp-main__high-and-low-values-info-header, .sgp-main__high-and-low-values-info-subtitle) {
+	border: 0.1rem solid var(--bg-line-aside);
+	color: var(--text-title);
+	padding: 1.2rem;
+	text-align: center;
+}
+
+.sgp-main__high-and-low-values-info-cell {
+	border: 0.1rem solid var(--bg-line-aside);
+	color: var(--text-paragraph);
+	padding: 1.2rem;
+	text-align: center;
+
+}

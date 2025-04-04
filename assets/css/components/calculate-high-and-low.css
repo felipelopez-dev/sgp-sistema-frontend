@@ -1,0 +1,59 @@
+.sgp-main__calculate-high-and-low {
+	height: 100%;
+	overflow: auto;
+	width: 100%;
+}
+
+.sgp-strong-hight {
+	color: var(--text-title);
+}
+
+.sgp-main__calculate-high-and-low::-webkit-scrollbar {
+	width: 1rem;
+}
+
+.sgp-main__calculate-high-and-low::-webkit-scrollbar-thumb {
+	background-color: var(--bg-scrollbar);
+	border-bottom-left-radius: 1rem;
+	border-top-left-radius: 1rem;
+	height: 15rem;
+}
+
+.sgp-main__calculate-high-and-low-title {
+	border-bottom: 0.1rem solid var(--bg-line-aside);
+	color: var(--text-title);
+	font-size: 3rem;
+	padding: 3rem;
+}
+
+.sgp-main__calculate-high-and-low-content {
+	padding: 3rem;
+}
+
+.sgp-main__calculate-high-and-low-item {
+	color: var(--text-paragraph);
+	line-height: 3rem;
+}
+
+.sgp-main__calculate-high-and-low-description {
+	color: var(--text-paragraph);
+	line-height: 4rem;
+	margin-left: 1rem;
+}
+
+.sgp-main__calculate-high-and-low-description::before {
+	content: '•';
+}
+
+.sgp-main__calculate-high-and-low-area-img {
+	align-items: center;
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	margin-top: 2rem;
+	width: 100%;
+}
+
+.sgp-main__calculate-high-and-low-image {
+	width: 50rem;
+}
