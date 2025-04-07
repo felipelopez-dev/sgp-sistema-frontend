@@ -13,4 +13,8 @@ body.dark-mode {
 		background-color: var(--bg-septenary);
 		border-bottom: 1px solid var(--border-segundary);
 	}
+
+	.sgp-header__list {
+		background-color: var(--bg-septenary);
+  }
 }
