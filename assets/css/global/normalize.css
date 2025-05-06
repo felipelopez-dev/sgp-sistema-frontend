@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+	scroll-margin-top: 4rem;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+	background-image: url("../../img/global/background/background-light.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+  font-family: var(--font-primary);
+  font-size: 1.6rem;
+	-moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-weight: 400;
+  height: 100vh;
+  margin: 0;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

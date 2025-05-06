@@ -1,0 +1,251 @@
+.sgp-main__tunnel-total {
+	height: 100%;
+	overflow: auto;
+	width: 100%;
+}
+
+.sgp-strong-hight {
+	color: var(--text-title);
+}
+
+.sgp-main__tunnel-total::-webkit-scrollbar {
+	width: 1rem;
+}
+
+.sgp-main__tunnel-total::-webkit-scrollbar-thumb {
+	background-color: var(--bg-scrollbar);
+	border-bottom-left-radius: 1rem;
+	border-top-left-radius: 1rem;
+	height: 15rem;
+}
+
+.sgp-main__tunnel-total-title {
+	border-bottom: 0.1rem solid var(--bg-line-aside);
+	color: var(--text-title);
+	font-size: 3rem;
+	padding: 3rem;
+}
+
+.sgp-main__tunnel-total-content {
+	padding: 3rem;
+}
+
+.sgp-main__tunnel-total-item {
+	color: var(--text-paragraph);
+	line-height: 3rem;
+}
+
+.sgp-main__tunnel-total-description {
+	color: var(--text-paragraph);
+	line-height: 4rem;
+	margin-left: 1rem;
+}
+
+.sgp-main__tunnel-total-description::before {
+	content: '•';
+}
+
+.sgp-main__tunnel-total-area-img {
+	align-items: center;
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	margin: 3rem 0;
+	width: 100%
+}
+
+.sgp-main__tunnel-total-image {
+	width: 85%;
+}
+
+.cash--information {
+	height: 50rem;
+	object-fit: cover;
+	object-position: top;
+}
+
+.calculate--tunnel-total {
+	width: 50rem;
+}
+
+.sgp-main__tunnel-total-info {
+	padding: 3rem;
+}
+
+.sgp-main__tunnel-total-info-title {
+	color: var(--text-title);
+	font-size: 2rem;
+	line-height: 4rem;
+}
+
+.sgp-main__tunnel-total-info-table {
+	border-collapse: collapse;
+	margin-top: 2rem;
+	width: 100%;
+}
+
+:is(.sgp-main__tunnel-total-info-header, .sgp-main__tunnel-total-info-subtitle) {
+	border: 0.1rem solid var(--bg-line-aside);
+	color: var(--text-title);
+	padding: 1.2rem;
+	text-align: center;
+}
+
+.sgp-main__tunnel-total-info-cell {
+	border: 0.1rem solid var(--bg-line-aside);
+	color: var(--text-paragraph);
+	padding: 1.2rem;
+	text-align: center;
+}
+
+.sgp-main__tunnel-total-subtitle {
+	color: var(--text-title);
+	font-size: 2rem;
+	margin-bottom: 2rem;
+}
+
+/* Media queries */
+@media (min-width:320px) and (max-width: 480px) {
+	.sgp-container {
+		grid-template-columns: 1fr;
+	}
+
+	.sgp-main-guide__title {
+        width: 100%;
+		font-size: 1.6rem;
+    }
+
+	.sgp-main__tunnel-total-content {
+		padding: 2rem;
+	}
+
+	.sgp-main__tunnel-total-title {
+		font-size: 1.7rem;
+		line-height: 3rem;
+	}
+
+	.sgp-main__tunnel-total-item {
+		line-height: 3rem;
+	}
+
+	.sgp-main__tunnel-total-description {
+		line-height: 2.6rem;
+	}
+
+	.sgp-main__tunnel-total-image {
+		padding: 2rem 0rem;
+		width: 25rem;
+	}
+
+	.sgp-aside-left__link-primary {
+		gap: 4rem;
+	}
+
+	.sgp-main__location-button {
+		padding: 0rem;
+	}
+
+	.sgp-main__link-button {
+		padding: 1rem 1rem;
+		width: 14rem;
+	}
+
+	:is(.sgp-main__location-subtext-left, .sgp-main__location-subtext-right) {
+		font-size: 1.5rem;
+	}
+
+	.sgp-aside-left {
+		position: absolute;
+		display: none;
+		width: 100%;
+		top: 14rem;
+		background-color: var(--bg-secondary);
+	}
+
+	.sgp-aside-right {
+		display: none;
+	}
+
+	.sgp-guide__header {
+		padding: 0rem 3rem;
+		gap: 3rem;
+		border-bottom: 0.1rem solid var(--bg-line-aside);
+	}
+
+	.sgp-guide__menumobile {
+		display: flex;
+		width: 5rem;
+		height: 3.5rem;
+	}
+
+	.sgp-main-guide__title {
+		border-left: 0.1rem solid var(--bg-line-aside);
+	}
+}
+
+@media (min-width:481px) and (max-width: 768px) {
+	.sgp-container {
+		grid-template-columns: 1fr;
+	}
+
+	.sgp-main__tunnel-total-content {
+		padding: 2rem;
+	}
+
+	.sgp-main__tunnel-total-title {
+		font-size: 1.7rem;
+		line-height: 3rem;
+	}
+
+	.sgp-main__tunnel-total-item  {
+		line-height: 2.6rem;
+	}
+
+	.sgp-main__tunnel-total-description  {
+		line-height: 2.6rem;
+	}
+
+	.sgp-main__tunnel-total-image  {
+		padding: 2rem 0rem;
+		width: 40rem;
+	}
+
+	.sgp-aside-left__link-primary {
+		gap: 4rem;
+	}
+
+	.sgp-main__location-button {
+		padding: 0rem;
+	}
+
+	.sgp-main__link-button {
+		padding: 1rem 1rem;
+		width: 20rem;
+	}
+
+	.sgp-aside-left {
+		position: absolute;
+		display: none;
+		width: 100%;
+		left: 10rem;
+		background-color: var(--bg-secondary);
+	}
+
+	.sgp-aside-right {
+		display: none;
+	}
+
+	.sgp-guide__header {
+		padding: 0rem 3rem;
+		gap: 3rem;
+		border-bottom: 0.1rem solid var(--bg-line-aside);
+	}
+
+	.sgp-guide__menumobile {
+		display: flex;
+	}
+
+	.sgp-main-guide__title {
+		border-left: 0.1rem solid var(--bg-line-aside);
+	}
+}

@@ -1,0 +1,228 @@
+.sgp-main__high-and-low-values {
+	height: 100%;
+	overflow: auto;
+	width: 100%;
+}
+
+.sgp-strong-hight {
+	color: var(--text-title);
+}
+
+.sgp-main__high-and-low-values::-webkit-scrollbar {
+	width: 1rem;
+}
+
+.sgp-main__high-and-low-values::-webkit-scrollbar-thumb {
+	background-color: var(--bg-scrollbar);
+	border-bottom-left-radius: 1rem;
+	border-top-left-radius: 1rem;
+	height: 15rem;
+}
+
+.sgp-main__high-and-low-values-title {
+	border-bottom: 0.1rem solid var(--bg-line-aside);
+	color: var(--text-title);
+	font-size: 3rem;
+	padding: 3rem;
+}
+
+.sgp-main__high-and-low-values-content {
+	padding: 3rem;
+}
+
+.sgp-main__high-and-low-values-item {
+	color: var(--text-paragraph);
+	line-height: 4rem;
+}
+
+.sgp-main__high-and-low-values-description {
+	color: var(--text-paragraph);
+	line-height: 4rem;
+	margin-left: 1rem;
+}
+
+.sgp-main__high-and-low-values-description::before {
+	content: '•';
+}
+
+.sgp-main__high-and-low-values-image {
+	padding-top: 2rem;
+	width: 100%;
+}
+
+.sgp-main__high-and-low-values-info {
+	padding: 3rem;
+}
+
+.sgp-main__high-and-low-values-info-title {
+	color: var(--text-title);
+	font-size: 2rem;
+	line-height: 4rem;
+}
+
+.sgp-main__high-and-low-values-info-table {
+	border-collapse: collapse;
+	margin-top: 2rem;
+	width: 100%;
+}
+
+:is(.sgp-main__high-and-low-values-info-header, .sgp-main__high-and-low-values-info-subtitle) {
+	border: 0.1rem solid var(--bg-line-aside);
+	color: var(--text-title);
+	padding: 1.2rem;
+	text-align: center;
+}
+
+.sgp-main__high-and-low-values-info-cell {
+	border: 0.1rem solid var(--bg-line-aside);
+	color: var(--text-paragraph);
+	padding: 1.2rem;
+	text-align: center;
+
+}
+
+/* Media queries */
+@media (min-width:320px) and (max-width: 480px) {
+	.sgp-container {
+		grid-template-columns: 1fr;
+	}
+
+	.sgp-main-guide__title {
+        width: 100%;
+		font-size: 1.6rem;
+    }
+
+	.sgp-main__high-and-low-values-content {
+		padding: 2rem;
+	}
+
+	.sgp-main__high-and-low-values-title {
+		font-size: 1.7rem;
+		line-height: 3rem;
+	}
+
+	.sgp-main__high-and-low-values-item {
+		line-height: 3rem;
+	}
+
+	.sgp-main__high-and-low-values-description {
+		line-height: 2.6rem;
+	}
+
+	.sgp-main__high-and-low-values-image {
+		padding: 2rem 0rem;
+        object-fit: cover;
+        object-position: left;
+	}
+
+	.sgp-aside-left__link-primary {
+		gap: 4rem;
+	}
+
+	.sgp-main__location-button {
+		padding: 0rem;
+	}
+
+	.sgp-main__link-button {
+		padding: 1rem 1rem;
+		width: 14rem;
+	}
+
+	:is(.sgp-main__location-subtext-left, .sgp-main__location-subtext-right) {
+		font-size: 1.5rem;
+	}
+
+	.sgp-aside-left {
+		position: absolute;
+		display: none;
+		width: 100%;
+		top: 14rem;
+		background-color: var(--bg-secondary);
+	}
+
+	.sgp-aside-right {
+		display: none;
+	}
+
+	.sgp-guide__header {
+		padding: 0rem 3rem;
+		gap: 3rem;
+		border-bottom: 0.1rem solid var(--bg-line-aside);
+	}
+
+	.sgp-guide__menumobile {
+		display: flex;
+		width: 5rem;
+		height: 3.5rem;
+	}
+
+	.sgp-main-guide__title {
+		border-left: 0.1rem solid var(--bg-line-aside);
+	}
+}
+
+@media (min-width:481px) and (max-width: 768px) {
+	.sgp-container {
+		grid-template-columns: 1fr;
+	}
+
+	.sgp-main__high-and-low-values-content {
+		padding: 2rem;
+	}
+
+	.sgp-main__high-and-low-values-title {
+		font-size: 1.7rem;
+		line-height: 3rem;
+	}
+
+	.sgp-main__high-and-low-values-item  {
+		line-height: 2.6rem;
+	}
+
+	.sgp-main__high-and-low-values-description  {
+		line-height: 2.6rem;
+	}
+
+	.sgp-main__high-and-low-values-image  {
+		padding: 2rem 0rem;
+	}
+
+	.sgp-aside-left__link-primary {
+		gap: 4rem;
+	}
+
+	.sgp-main__location-button {
+		padding: 0rem;
+	}
+
+	.sgp-main__link-button {
+		padding: 1rem 1rem;
+		width: 20rem;
+	}
+
+	.sgp-aside-left {
+		position: absolute;
+		display: none;
+		width: 100%;
+		left: 10rem;
+		background-color: var(--bg-secondary);
+	}
+
+	.sgp-aside-right {
+		display: none;
+	}
+
+	.sgp-guide__header {
+		padding: 0rem 3rem;
+		gap: 3rem;
+		border-bottom: 0.1rem solid var(--bg-line-aside);
+	}
+
+	.sgp-guide__menumobile {
+		display: flex;
+	}
+
+	.sgp-main-guide__title {
+		border-left: 0.1rem solid var(--bg-line-aside);
+	}
+}

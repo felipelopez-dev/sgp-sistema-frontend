@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="cache-control" content="no-cache, must-revalidate, post-check=0, pre-check=0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>SGP | Software de gerenciamento de produção</title>
+
+	<!-- Favicon -->
+	<link rel="icon" type="image/png" href="../../assets/img/favicons/favicon-96x96.png" sizes="96x96">
+	<link rel="shortcut icon" href="../../assets/img/favicons/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="../../assets/img/favicons/apple-touch-icon.png">
+	<meta name="apple-mobile-web-app-title" content="SGP">
+	<link rel="manifest" href="../../assets/img/favicons/site.webmanifest">
+	<link rel="icon" type="image/svg+xml" href="../../assets/img/favicons/favicon.svg">
+
+	<!-- Css -->
+	<link rel="stylesheet" href="../../assets/css/global/normalize.css">
+	<link rel="stylesheet" href="../../assets/css/global/variables.css">
+	<link rel="stylesheet" href="../../assets/css/themes/dark-light.css">
+	<link rel="stylesheet" href="../../assets/css/base/index.css">
+	<link rel="stylesheet" href="../../assets/css/components/calculate.css">
+
+	<!-- Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap">
+
+</head>
+
+<body>
+
+	<!-- The css modifications for this Header will be in index.css -->
+	<header class="sgp-header" role="banner">
+		<a href="../../index.html" class="sgp-header__brand" aria-label="Voltar para a página inicial">
+			<img src="../../assets/img/global/svg/brand/brand.svg" class="sgp-header__logo"  tabindex="1" alt="Logotipo do SGP">
+			<div class="sgp-header__vertical-line"></div>
+		</a>
+		<nav class="sgp-header__menu" role="navigation" aria-label="Menu principal">
+			<div class="sgp-header__menu-mobile">
+                <div class="sgp-header__menu-item"></div>
+                <div class="sgp-header__menu-item"></div>
+                <div class="sgp-header__menu-item"></div>
+            </div>
+			<ul class="sgp-header__list">
+				<li class="sgp-header__item">
+						<a href="../../index.html" class="sgp-header__link" tabindex="2">Início</a>
+				</li>
+				<li class="sgp-header__item">
+					<a href="../calculate/calculate.html" class="sgp-header__link" tabindex="3">Calcular</a>
+				</li>
+				<li class="sgp-header__item">
+						<a href="../guide/guide.html" class="sgp-header__link" tabindex="4">Guia</a>
+				</li>
+			</ul>
+	  </nav>
+	  <div class="sgp-header__area-button">
+		<div class="sgp-header__button-close">
+			<img class="sgp-header__icon-exit" src="../../assets/img/global/svg/icons/ui/exit.svg" alt="Botão de sair"
+			title="Botão de sair">
+		</div>
+		<button class="sgp-header__btn-light-dark" aria-label="Alternar entre modo claro e escuro">
+			<div class="sgp-header__rail-mode">
+				<img src="../../assets/img/global/svg/icons/ui/light.svg" tabindex="5" class="sgp-header__img-light icon--dark-light" alt="Modo claro">
+				<img src="../../assets/img/global/svg/icons/ui/dark.svg" alt="Modo escuro" tabindex="6" class="sgp-header__img-dark icon--dark-light">
+			</div>
+		</button>
+	  </div>
+  </header>
+
+	<section class="sgp-calculate" aria-labelledby="sgp-calculate-title">
+		<div class="sgp-calculate__area-form">
+			<h1 class="sgp-calculate__title">Preencha as informações</h1>
+			<div class="sgp-calculate__form active" id="form1" name="form1">
+				<div class="sgp-calculate__form-carcass">
+					<div class="sgp-calculate__area-carcass">
+						<label for="sgp-calculate__pigcarcass1" class="sgp-calculate_title-label">Qual o primeiro valor de carcaça?</label>
+						<input
+							type="number"
+							name="pig-carcass1"
+							id="sgp-calculate__pigcarcass1"
+							class="sgp-calculate__pigcarcass1 calculate--input"
+							placeholder="Digite"
+							autocomplete="off"
+							tabindex="7"
+							autofocus
+						/>
+					</div>
+					<div class="sgp-calculate__area-carcass">
+						<label for="sgp-calculate__pigcarcass2">Qual o segundo valor de carcaça?</label>
+						<input
+							type="number"
+							name="pig-carcass2"
+							id="sgp-calculate__pigcarcass2"
+							class="sgp-calculate__pigcarcass2 calculate--input"
+							placeholder="Digite"
+							autocomplete="off"
+							tabindex="8"
+						/>
+					</div>
+				</div>
+				<div class="sgp-calculate__area-button" >
+					<button type="button" class="sgp-calculate__next-button pig-carcass--button" tabindex="9">Próximo</button>
+				</div>
+				<div class="sgp-calculate__doubt-card">
+					<span class="sgp-calculate__doubt-card-title">Com dúvida como fazer?</span>
+					<a href="../guide/guide.html" class="sgp-calculate__doubt-card-change" tabindex="10">Clique aqui.</a>
+				</div>
+			</div>
+
+			<div class="sgp-calculate__form calculate-form--total" name="form2" id="form2">
+				<label for="sgp-calculate__total-cash">Qual é a quantidade de caixa no túnel?</label>
+				<input
+					type="number"
+					name="quantity-in-the-tunnel"
+					id="sgp-calculate__total-cash"
+					class="sgp-calculate__total-cash calculate--input"
+					placeholder="Digite"
+					autocomplete="off"
+					tabindex="11"
+				/>
+				<div class="sgp-calculate__area-button">
+					<button type="button" class="sgp-calculate__back-button" tabindex="12">Voltar</button>
+					<button type="button" class="sgp-calculate__next-button " tabindex="13">Próximo</button>
+				</div>
+				<div class="sgp-calculate__doubt-card">
+					<span class="sgp-calculate__doubt-card-title">Com dúvida como fazer?</span>
+					<a href="../guide/tunnel-total.html" class="sgp-calculate__doubt-card-change" tabindex="14">Clique aqui.</a>
+				</div>
+			</div>
+
+			<div class="sgp-calculate__form-withdrawal sgp-calculate__form" name="form3" id="form3">
+				<span class="sgp-calculate_title-cash-withdrawal">Qual a quantidade de caixa a retirar?</span>
+
+				<div class="sgp-calculate__cash-withdrawal">
+
+					<div class="sgp-calculate__cash">
+						<div class="sgp-calculate__cash-left">
+							<div class="sgp-calculate__area-cash">
+								<label for="sgp-calculate__lower-cash">Caixa Baixa</label>
+								<input
+									type="number"
+									name="lower-cash"
+									id="sgp-calculate__lower-cash"
+									class="sgp-calculate__lower-cash calculate--input"
+									placeholder="Digite"
+									autocomplete="off"
+									tabindex="15"
+								/>
+							</div>
+							<div class="sgp-calculate__area-cash">
+								<label for="sgp-calculate__pork-shank-box">Pernil</label>
+								<input
+									type="number"
+									name="pork-shank-box"
+									id="sgp-calculate__pork-shank-box"
+									class="sgp-calculate__pork-shank-box calculate--input"
+									placeholder="Digite"
+									autocomplete="off"
+									tabindex="16"
+									autofocus
+								/>
+							</div>
+						</div>
+
+						<div class="sgp-calculate__cash-right">
+							<div class="sgp-calculate__area-cash">
+								<label for="sgp-calculate__10kg-box">Caixa 10kg</label>
+								<input
+									type="number"
+									name="10kg-box"
+									id="sgp-calculate__10kg-box"
+									class="sgp-calculate__10kg-box calculate--input"
+									placeholder="Digite"
+									autocomplete="off"
+									tabindex="17"
+								/>
+							</div>
+							<div class="sgp-calculate__area-cash">
+								<label for="sgp-calculate__export-box">Exportação</label>
+								<input
+									type="number"
+									name="export-box"
+									id="sgp-calculate__export-box"
+									class="sgp-calculate__export-box calculate--input"
+									placeholder="Digite"
+									autocomplete="off"
+									tabindex="18"
+								/>
+							</div>
+						</div>
+					</div>
+					<div class="sgp-calculate__area-button">
+						<button type="button" class="sgp-calculate__back-button cash-withdrawal--button" tabindex="19">Voltar</button>
+						<button type="button" tabindex="20" aria-labelledby="Botão para calcular as informações lançado"
+						class="sgp-calculate__calculate-button sgp-calculate__next-button cash-withdrawal--button">
+							Calcular
+						</button>
+					</div>
+					<div class="sgp-calculate__doubt-card">
+						<span class="sgp-calculate__doubt-card-title">Com dúvida como fazer?</span>
+						<a href="../guide/remove-box.html" class="sgp-calculate__doubt-card-change" tabindex="21">Clique aqui.</a>
+					</div>
+				</div>
+			</div>
+			<div class="sgp-calculate__form">
+				<p class="sgp-calculate__end-result"></p>
+				<a href="calculate.html" class="sgp-calculate__new-calculo-button sgp-calculate__next-button"
+				aria-labelledby="Botão para fazer outra calculo" tabindex="22">Calculo novo</a>
+			</div>
+		</div>
+	</section>
+
+	<script type="text/javascript" src="../../assets/js/global/darkMode.js" defer></script>
+	<script type="text/javascript" src="../../assets/js/global/activeMobile.js" defer></script>
+	<script type="text/javascript" src="../../assets/js/pages/calculate/nextButton.js" defer></script>
+	<script type="text/javascript" src="../../assets/js/pages/calculate/calculateResult.js" defer></script>
+	<script type="text/javascript" src="../../assets/js/pages/calculate/keyboardValidation.js" defer></script>
+	<script type="text/javascript" src="../../assets/js/global/exitButton.js" defer></script>
+	
+
+</body>
+</html>

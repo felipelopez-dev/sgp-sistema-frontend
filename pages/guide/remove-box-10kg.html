@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="pt-br" >
+
+<head>
+	<meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="cache-control" content="no-cache, must-revalidate, post-check=0, pre-check=0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>SGP | Software de gerenciamento de produção</title>
+
+	<!-- Favicon -->
+	<link rel="icon" type="image/png" href="../../assets/img/favicons/favicon-96x96.png" sizes="96x96">
+	<link rel="shortcut icon" href="../../assets/img/favicons/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="../../assets/img/favicons/apple-touch-icon.png">
+	<meta name="apple-mobile-web-app-title" content="SGP">
+	<link rel="manifest" href="../../assets/img/favicons/site.webmanifest">
+	<link rel="icon" type="image/svg+xml" href="../../assets/img/favicons/favicon.svg">
+
+	<!-- Css -->
+	<link rel="stylesheet" href="../../assets/css/global/normalize.css">
+	<link rel="stylesheet" href="../../assets/css/global/variables.css">
+	<link rel="stylesheet" href="../../assets/css/themes/dark-light.css">
+	<link rel="stylesheet" href="../../assets/css/base/index.css">
+	<link rel="stylesheet" href="../../assets/css/components/guide.css">
+	<link rel="stylesheet" href="../../assets/css/components/remove-box.css">
+
+	<!-- Font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap">
+
+</head>
+
+<body>
+
+	<!-- The CSS modifications for this header will be in index.css -->
+	<header class="sgp-header">
+		<a href="../../index.html" class="sgp-header__brand">
+			<img src="../../assets/img/global/svg/brand/brand.svg" class="sgp-header__logo" alt="Logotipo do SGP">
+			<div class="sgp-header__vertical-line"></div>
+		</a>
+		<nav class="sgp-header__menu">
+			<div class="sgp-header__menu-mobile">
+                <div class="sgp-header__menu-item"></div>
+                <div class="sgp-header__menu-item"></div>
+                <div class="sgp-header__menu-item"></div>
+            </div>
+			<ul class="sgp-header__list spg-header--guide-list">
+				<li class="sgp-header__item">
+						<a href="../../index.html" class="sgp-header__link">Início</a>
+				</li>
+				<li class="sgp-header__item">
+					<a href="../calculate/calculate.html" class="sgp-header__link">Calcular</a>
+				</li>
+				<li class="sgp-header__item">
+						<a href="../guide/guide.html" class="sgp-header__link">Guia</a>
+				</li>
+			</ul>
+	 </nav>
+	 <div class="sgp-header__area-button">
+		<div class="sgp-header__button-close">
+			<img class="sgp-header__icon-exit" src="../../assets/img/global/svg/icons/ui/exit.svg" alt="Botão de sair"
+			title="Botão de sair">
+		</div>
+		<button class="sgp-header__btn-light-dark" aria-label="Alternar entre modo claro e escuro">
+			<div class="sgp-header__rail-mode">
+				<img src="../../assets/img/global/svg/icons/ui/light.svg" tabindex="5" class="sgp-header__img-light icon--dark-light" alt="Modo claro">
+				<img src="../../assets/img/global/svg/icons/ui/dark.svg" alt="Modo escuro" tabindex="6" class="sgp-header__img-dark icon--dark-light">
+			</div>
+		</button>
+	</div>
+  </header>
+
+	<!-- To manipulate the css of the sgp-container and sgp-aside-left class you need to check the guide.css -->
+	<section class="sgp-container">
+		<aside class="sgp-aside-left">
+			<ul class="sgp-aside-left__list">
+					<li class="sgp-aside-left__item">
+							<details class="sgp-aside-left__details">
+									<summary class="sgp-aside-left__summary-primary">
+										Quantidade de carcaça
+									</summary>
+									<ul class="sgp-aside-left__list">
+											<li class="sgp-aside-left__item">
+													<a href="../guide/guide.html" class="sgp-aside-left__link-primary">
+														Passo a passo
+													</a>
+											</li>
+											<li class="sgp-aside-left__item">
+													<details class="sgp-aside-left__details">
+															<summary class="sgp-aside-left__summary-secondary">
+																Separação de quantidades
+															</summary>
+															<ul class="sgp-aside-left__list">
+																	<li class="sgp-aside-left__item">
+																			<a href="./identify-high-values.html" class="sgp-aside-left__link-secondary">
+																				Valores altos
+																			</a>
+																	</li>
+																	<li class="sgp-aside-left__item">
+																			<a href="./identify-low-values.html" class="sgp-aside-left__link-secondary">
+																					Valores baixos
+																			</a>
+																	</li>
+															</ul>
+													</details>
+											</li>
+											<li class="sgp-aside-left__item">
+													<details class="sgp-aside-left__details">
+															<summary class="sgp-aside-left__summary-secondary">
+																	Como calcular os valores
+															</summary>
+															<ul class="sgp-aside-left__list">
+																	<li class="sgp-aside-left__item">
+																			<a href="./handle-high-values.html" class="sgp-aside-left__link-secondary">
+																				Lidar com valores altos
+																			</a>
+																	</li>
+																	<li class="sgp-aside-left__item">
+																			<a href="./handle-low-values.html" class="sgp-aside-left__link-secondary">
+																				Lidar com valores baixos
+																			</a>
+																	</li>
+															</ul>
+													</details>
+											</li>
+									</ul>
+							</details>
+					</li>
+
+					<li class="sgp-aside-left__item">
+							<details class="sgp-aside-left__details">
+									<summary class="sgp-aside-left__summary-primary">
+										Resultado total do túnel
+									</summary>
+									<ul class="sgp-aside-left__list">
+											<li class="sgp-aside-left__item">
+													<a href="./tunnel-total.html" class="sgp-aside-left__link-primary">
+														Verificação do valor final
+													</a>
+											</li>
+									</ul>
+							</details>
+					</li>
+
+					<li class="sgp-aside-left__item">
+							<details open class="sgp-aside-left__details">
+									<summary class="sgp-aside-left__summary-primary">
+											Caixas para retirar
+									</summary>
+									<ul class="sgp-aside-left__list">
+											<li class="sgp-aside-left__item">
+													<a href="./remove-box.html" class="sgp-aside-left__link-primary">
+														Caixa baixa
+													</a>
+											</li>
+											<li class="sgp-aside-left__item">
+												<a href="./remove-pork-leg.html" class="sgp-aside-left__link-primary">
+													Pernil
+												</a>
+											</li>
+											<li class="sgp-aside-left__item">
+												<a href="./remove-box-10kg.html" class="sgp-aside-left__link-primary">
+													Caixa de 10kg
+												</a>
+											</li>
+											<li class="sgp-aside-left__item">
+												<a href="./remove-export.html" class="sgp-aside-left__link-primary">
+													Caixa de exportação
+												</a>
+											</li>
+									</ul>
+							</details>
+					</li>
+			</ul>
+		</aside>
+
+		<main class="sgp-main__remove-box-total">
+			<div class="sgp-guide__header">
+				<div class="sgp-guide__menumobile">
+					<div class="sgp-guide__mobile-item"></div>
+					<div class="sgp-guide__mobile-item"></div>
+					<div class="sgp-guide__mobile-item"></div>
+				</div>
+				<h1 class="sgp-main-guide__title" id="location-result">
+					Retirada de caixa
+				</h1>
+			</div>
+			<div class="sgp-main__remove-box-total-content">
+				<h2 class="sgp-main__remove-box-total-subtitle" id="remove-box">
+					1. Caixa de 10kg
+				</h2>
+				<ol class="sgp-main__remove-box-total-list">
+					<li class="sgp-main__remove-box-total-item">
+						<p>
+							1. Abra o software da empresa e clique no ícone
+							<strong class="sgp-strong-hight">"Relatórios"</strong> na barra superior, geralmente
+							representado por uma prancheta com gráficos.
+						</p>
+						<div class="sgp-main__remove-box-total-area-img">
+							<img src="../../assets/img/pages/guide/access-report.jpg" alt="Imagem do acesso de relatórios"
+								class="sgp-main__remove-box-total-image">
+						</div>
+					</li>
+					<li class="sgp-main__remove-box-total-item">
+						<p>
+							2. Após clicar em relatórios, irá abrir mais duas opções, na qual deverá ir
+							<strong class="sgp-strong-hight">"Resumo de Produção"</strong>
+							para poder verificar a quantidade total de caixa.
+						</p>
+						<div class="sgp-main__remove-box-total-area-img">
+							<img src="../../assets/img/pages/guide/report.jpg" alt="Imagem do acesso de relatórios"
+								class="sgp-main__remove-box-total-image">
+						</div>
+					</li>
+					<li class="sgp-main__remove-box-total-item">
+						<p>
+							3. Após concluir os dois procedimentos, será possível visualizar uma tabela intitulada
+							<strong class="sgp-strong-hight">"Produto"</strong>. Com isso você conseguira verificar na imagem que tem
+							<strong class="sgp-strong-hight">"Prod 5 Torresmo"</strong>,
+							<strong class="sgp-strong-hight">"Prod 14 Exp máscara"</strong> e
+							<strong class="sgp-strong-hight">"Prod 15 Exp bisteca"</strong>.
+						</p>
+						<div class="sgp-main__remove-box-total-area-img">
+							<img src="../../assets/img/pages/guide/cash-information.jpg" alt="Imagem presente do túnel"
+								class="sgp-main__remove-box-total-image remove-box--cash">
+						</div>
+					</li>
+					<li class="sgp-main__remove-box-total-item">
+						<p>
+							4. Dessa forma, os três valores serão utilizados para calcular a quantidade de caixa de 10kg.
+						</p>
+						<div class="sgp-main__remove-box-info">
+							<h2 class="sgp-main__remove-box-info-title" id="result">
+								Exemplo
+							</h2>
+							<table class="sgp-main__remove-box-info-table">
+								<thead class="sgp-main__remove-box-thead">
+									<tr class="sgp-main__remove-box-info-row">
+										<th class="sgp-main__remove-box-info-header">Prod 5 Torresmo</th>
+										<th class="sgp-main__remove-box-info-header">Prod 14 Exp máscara</th>
+										<th class="sgp-main__remove-box-info-header">Prod 15 Exp bisteca</th>
+										<th class="sgp-main__remove-box-info-header">Resultado</th>
+									</tr>
+								</thead>
+								<tbody class="sgp-main__remove-box-tbody">
+									<tr class="sgp-main__remove-box-info-row">
+										<td class="sgp-main__remove-box-info-subtitle">330</td>
+										<td class="sgp-main__remove-box-info-cell">962</td>
+										<td class="sgp-main__remove-box-info-cell">450</td>
+										<td class="sgp-main__remove-box-info-cell">1.742</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</li>
+				</ol>
+			</div>
+
+			<div class="sgp-main__remove-box-total-content">
+				<h4 class="sgp-main__remove-box-total-subtitle" id="value-total">
+					2.Colocando os resultados
+				</h4>
+				<ol class="sgp-main__remove-box-total-list">
+					<li class="sgp-main__remove-box-total-item">
+						<p>1. No campo <strong class="sgp-strong-hight">"Caixa de 10kg"</strong>,
+							insira os números no lugar identificado.</p>
+					</li>
+				</ol>
+				<p class="sgp-main__remove-box-total-description">
+					Exemplo na imagem abaixo:
+				</p>
+				<div class="sgp-main__remove-box-total-area-img">
+					<img src="../../assets/img/pages/guide/remove-box-10kg.png" alt="Imagem da página de calcular"
+						class="sgp-main__remove-box-total-image calculate--tunnel-total">
+				</div>
+			</div>
+
+			<!-- To manipulate the css of the sgp-main__location-button class you need to check the guide.css -->
+			<div class="sgp-main__location-button">
+					<a href="./remove-pork-leg.html" class="sgp-main__link-button">
+						<div class="sgp-main__location-area-button">
+							<p class="sgp-main__location-text-left">Anterior</p>
+							<p class="sgp-main__location-subtext-left">Pernil</p>
+						</div>
+					</a>
+					<a href="./remove-export.html" class="sgp-main__link-button">
+						<div class="sgp-main__location-a" id="calculate-next-button">
+							<p class="sgp-main__location-text-right">Próximo</p>
+							<p class="sgp-main__location-subtext-right">Caixa de exportação</p>
+						</div>
+					</a>
+			</div>
+		</main>
+
+		<!-- To manipulate the css of the sgp-aside-right class you need to check the guide.css -->
+		<aside class="sgp-aside-right">
+			<div class="sgp-aside-right__area">
+				<p class="sgp-aside-right__title">Nesta página</p>
+				<ul class="sgp-aside-right__list">
+					<li class="sgp-aside-right__item">
+						<a href="#remove-box" class="sgp-aside-right__link">Caixa de 10kg</a>
+					</li>
+					<li class="sgp-aside-right__item">
+						<a href="#value-total" class="sgp-aside-right__link">Colocando os resultado</a>
+					</li>
+					<li class="sgp-aside-right__item">
+						<a href="#calculate-next-button" class="sgp-aside-right__link">Botões</a>
+					</li>
+				</ul>
+			</div>
+		</aside>
+	</section>
+
+	<script type="text/javascript" src="../../assets/js/global/darkMode.js" defer></script>
+	<script type="text/javascript" src="../../assets/js/global/activeMobile.js" defer></script>
+	<script type="text/javascript" src="../../assets/js/global/activeAsideMobile.js" defer></script>
+	<script type="text/javascript" src="../../assets/js/global/exitButton.js" defer></script>
+</body>
+</html>

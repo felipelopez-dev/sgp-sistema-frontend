@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="cache-control" content="no-cache, must-revalidate, post-check=0, pre-check=0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Login | SGP</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="../../assets/img/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="shortcut icon" href="../../assets/img/favicons/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../assets/img/favicons/apple-touch-icon.png">
+    <meta name="apple-mobile-web-app-title" content="SGP">
+    <link rel="manifest" href="../../assets/img/favicons/site.webmanifest">
+    <link rel="icon" type="image/svg+xml" href="../../assets/img/favicons/favicon.svg">
+
+    <!-- Css -->
+    <link rel="stylesheet" href="../../assets/css/global/normalize.css">
+    <link rel="stylesheet" href="../../assets/css/global/variables.css">
+    <link rel="stylesheet" href="../../assets/css/components/login.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap">
+</head>
+
+<body class="sgp-login__container">
+    <div class="sgp-login">
+        <div class="login-left">
+                <form class="login-left__form">
+                    <h1 class="login-left__title">Faça o login da conta</h1>
+                    <div class="login-left__content">
+                        <div class="login-left__area-input">
+                            <div class="login-left__card-input">
+                                <div class="login-left__card">
+                                    <label for="login-left__user" class="login-left__label" >Usuário</label>
+                                    <input 
+                                        type="text" 
+                                        name="user" 
+                                        placeholder="Digite aqui"
+                                        required
+                                        class="login-left__input login--user"
+                                        id="login-left__user"
+                                    />
+                                </div>
+                                <img class="login-left__icon-user" src="../../assets/img/global/svg/icons/ui/user.svg" alt="Imagem de ícone de usuário">
+                            </div>
+                        </div>
+                        <div class="login-left__area-input">
+                            <div class="login-left__area-input">
+                                <div class="login-left__card-input">
+                                    <div class="login-left__card">
+                                        <label for="login-left__password" class="login-left__label" >Usuário</label>
+                                        <input 
+                                            type="password" 
+                                            name="user" 
+                                            placeholder="Digite aqui"
+                                            required
+                                            class="login-left__input login--password"
+                                            id="login-left__password"
+                                        />
+                                    </div>
+                                    <img class="login-left__icon-eye-slash active" src="../../assets/img/global/svg/icons/ui/eye-slash.svg" alt="Mostrar senha">
+                                    <img class="login-left__icon-eye" src="../../assets/img/global/svg/icons/ui/eye.svg" alt="Ocultar senha">
+                                </div>
+                                <span class="login-left__print-validation"></span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <button type="button" class="login-left__button">
+                        Entrar
+                    </button>
+                </form>
+                <div class="login-left__brand">
+                    <img class="login-left__image" src="../../assets/img/global/svg/brand/brand-with-text.svg" alt="Imagem da marca do site">
+                </div>
+        </div>
+        <div class="login-right">
+           <div class="login-right__area-img">
+           </div> 
+        </div>
+    </div>
+
+    <script type="text/javascript" src="../../assets/js/pages/login/passwordShadow.js" defer></script>
+    <script type="text/javascript" src="../../assets/js/pages/login/loginValidation.js" defer></script>
+
+</body>
+</html>

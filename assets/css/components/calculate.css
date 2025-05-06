@@ -1,0 +1,319 @@
+.sgp-calculate {
+	align-items: center;
+	display: flex;
+	height: calc(100% - 6.5rem);
+	justify-content: center;
+	width: 100%;
+}
+
+.sgp-calculate__area-form {
+	align-items: center;
+	background: linear-gradient(
+		45deg,
+		var(--bg-quaternary) 0%,
+		var(--bg-quaternary) 40.0001%,
+		var(--bg-senary) 40.0001%,
+		var(--bg-senary) 60.0001%,
+		var(--bg-octonary) 60.0001%,
+		var(--bg-octonary) 100%
+	);
+	border-radius: 1rem;
+	box-shadow: 0 0 1rem 1rem var(--shadow-segundary);
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
+	height: 45rem;
+	justify-content: center;
+	max-width: 40rem;
+	width: 100%;
+}
+
+.sgp-calculate__title {
+	color: var(--text-title-form);
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 3.1rem;
+	font-weight: 500;
+}
+
+/* Form global - global */
+.sgp-calculate__form.active {
+	align-items: center;
+	color: var(--text-paragraph-form);
+	display: flex;
+	flex-direction: column;
+	font-size: 1.9rem;
+	gap: 1rem;
+	line-height: 3rem;
+}
+
+.sgp-calculate__form {
+	display: none;
+}
+
+/* Form carcass */
+.sgp-calculate__form-carcass {
+	margin-bottom: 4rem;
+}
+
+.sgp-calculate__area-carcass {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	gap: 0.7rem;
+	justify-content: center;
+	width: 100%;
+}
+
+/* Form total cash */
+.sgp-calculate__total-cash {
+	margin-bottom: 12rem;
+}
+
+.sgp-calculate_title-cash-withdrawal {
+	font-size: 2rem;
+}
+
+/* Form cash withdrawal */
+.sgp-calculate__cash-withdrawal {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+}
+
+.sgp-calculate__cash {
+	display: flex;
+	height: 100%;
+	width: 100%;
+}
+
+.sgp-calculate__area-cash {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-bottom: 1.5rem;
+}
+
+.sgp-calculate__cash-left {
+	flex: 1;
+}
+
+.sgp-calculate__cash-right {
+	flex: 1;
+}
+
+/* Inputs */
+.calculate--input {
+	background-color: var(--bg-secondary);
+	border: none;
+	border-radius: 1rem;
+	font-size: 2rem;
+	height: 4rem;
+	max-width: 10rem;
+	outline: none;
+	padding: 1rem;
+	text-align: center;
+	width: 100%;
+}
+
+.calculate--input::placeholder {
+	color: var(--text-paragraph-placeholder);
+	font-size: 1.7rem;
+	text-align: center;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+	appearance: none;
+	margin: 0;
+}
+
+/* Buttons */
+.sgp-calculate__area-button {
+	align-items: center;
+	display: flex;
+	gap: 3rem;
+	justify-content: center;
+	width: 100%;
+}
+
+:is(.sgp-calculate__next-button, .sgp-calculate__back-button) {
+	background-color: var(--bg-button);
+	border: none;
+	border-radius: 1rem;
+	box-shadow: 0 0.4rem 1rem var(--shadow-segundary);
+	color: var(--text-button);
+	cursor: pointer;
+	font-size: 1.8rem;
+	padding: 2rem;
+	transition: transform 0.4s ease;
+	width: 15rem;
+}
+
+:is(.sgp-calculate__next-button, .sgp-calculate__back-button):hover {
+	background-color: var(--bg-button-hover);
+	box-shadow: 0 0.4rem 1rem var(--shadow-segundary);
+}
+
+/* Button withdrawal */
+.pig-carcass--button {
+	margin-bottom: 0.6rem;
+}
+
+.cash-withdrawal--button {
+	margin-bottom: 1rem;
+	margin-top: 0;
+}
+
+/* Dout card */
+.sgp-calculate__doubt-card {
+	margin-top: 3rem;
+	text-align: center;
+}
+
+.sgp-calculate__doubt-card-change {
+	background-image: linear-gradient(90deg, var(--bg-octonary), var(--bg-primary));
+	background-position: 0 100%;
+	background-repeat: no-repeat;
+	background-size: 100% 3px;
+	padding-bottom: 2px;
+	text-decoration: none;
+	transition: color 0.3s ease-in-out;
+}
+
+.sgp-calculate__doubt-card-change:hover {
+	background-image: linear-gradient(90deg, var(--bg-nonary), var(--bg-white));
+	color: var(--text-underline);
+}
+
+/* End result */
+.sgp-calculate__end-result {
+	font-size: 3rem;
+	margin-bottom: 13rem;
+}
+
+.sgp-calculate__new-calculo-button {
+	padding: 1.5rem;
+	text-align: center;
+}
+
+
+/* Media queries */
+@media (min-width: 320px) and (max-width: 768px) {
+
+	.sgp-calculate__area-form {
+		gap: 0;
+		height: 39rem;
+		max-width: 30rem;
+	}
+
+	.sgp-calculate_title-cash-withdrawal {
+		font-size: 1.4rem;
+	}
+
+	.sgp-calculate__form-carcass {
+		margin-bottom: 1rem;
+	}
+
+	.sgp-calculate__title {
+		font-size: 2rem;
+		margin-bottom: 2rem;
+	}
+
+	label {
+		font-size: 1.4rem;
+	}
+
+	.sgp-calculate__total-cash {
+		margin-bottom: 9rem;
+	}
+
+	:is(.sgp-calculate__next-button, .sgp-calculate__back-button) {
+		width: 12rem;
+	}
+
+	.sgp-calculate__doubt-card {
+		font-size: 1.4rem;
+		margin: 0;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+	.sgp-calculate__area-form {
+		gap: 0;
+		height: 39rem;
+		max-width: 30rem;
+	}
+
+	.sgp-calculate_title-cash-withdrawal {
+		font-size: 1.4rem;
+	}
+
+	.sgp-calculate__form-carcass {
+		margin-bottom: 1rem;
+	}
+
+	.sgp-calculate__title {
+		font-size: 2rem;
+		margin-bottom: 2rem;
+	}
+
+	label {
+		font-size: 1.4rem;
+	}
+
+	.sgp-calculate__total-cash {
+		margin-bottom: 9rem;
+	}
+
+	:is(.sgp-calculate__next-button, .sgp-calculate__back-button) {
+		width: 12rem;
+	}
+
+	.sgp-calculate__doubt-card {
+		font-size: 1.4rem;
+		margin: 0;
+	}
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+
+	.sgp-calculate__area-form {
+		gap: 0;
+		height: 39rem;
+		max-width: 30rem;
+	}
+
+	.sgp-calculate_title-cash-withdrawal {
+		font-size: 1.4rem;
+	}
+
+	.sgp-calculate__form-carcass {
+		margin-bottom: 1rem;
+	}
+
+	.sgp-calculate__title {
+		font-size: 2rem;
+		margin-bottom: 2rem;
+	}
+
+	label {
+		font-size: 1.4rem;
+	}
+
+	.sgp-calculate__total-cash {
+		margin-bottom: 9rem;
+	}
+
+	:is(.sgp-calculate__next-button, .sgp-calculate__back-button) {
+		width: 12rem;
+	}
+
+	.sgp-calculate__doubt-card {
+		font-size: 1.4rem;
+		margin: 0;
+	}
+}

@@ -1,0 +1,12 @@
+# Dependencies
+node_modules/
+
+# Build files
+dist/
+build/
+
+# Vscode 
+.vscode
+
+# Color file
+color.txt

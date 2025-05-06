@@ -1,0 +1,35 @@
+{
+  "name": "sgp",
+  "version": "1.0.0",
+  "description": "SGP - Software de Gerenciamento de Produção é uma aplicação web desenvolvida para auxiliar no cálculo e fechamento de caixa diário da empresa. O sistema oferece estimativas aproximado da quantidade final do produto, proporcionando mais agilidade e eficiência no processo produtivo.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "biome:check": "biome check .",
+    "biome:fix": "biome check . --apply",
+    "stylelint": "stylelint \"assets/css/**/*.{css,scss,less}\"",
+    "stylelint:fix": "stylelint \"assets/css/**/*.{css,scss,less}\" --fix"
+  },
+  "keywords": [
+    "SGP",
+    "Software de Gerenciamento de Produção",
+    "Aplicação Web",
+    "Cálculo",
+    "Fechamento de Caixa Diário",
+    "Empresa",
+    "Estimativas Aproximados",
+    "Quantidade Final do Produto",
+    "Agilidade",
+    "Eficiência",
+    "Processo Produtivo"
+  ],
+  "author": "Felipe Lopez, Software Engineering student",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "stylelint": "^16.14.1",
+    "stylelint-config-standard": "^37.0.0",
+    "stylelint-order": "^6.0.4"
+  }
+}
