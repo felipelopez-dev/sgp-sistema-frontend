@@ -79,7 +79,7 @@ Resultado: uma previsão clara do espaço ocupado.
 ## 🌐 Acesse o Sistema
 
 Você pode testar o sistema diretamente aqui:  
-👉 **[Abrir SGP agora](https://github.com/felipelopez-dev/Sgp-sistema-frontend.git)**
+👉 **[Abrir SGP agora](https://felipelopez-dev.github.io/Sgp-sistema-frontend/)**
 
 ---
 
@@ -112,18 +112,22 @@ Desde que o **SGP** foi implementado, a empresa percebeu melhorias significativa
 - **Fonte principal:** Inter
 
 ### Paleta:
-- <span style="background-color:#000000; color: #ffffff; padding: 2px 6px; border-radius: 4px;">#000000</span> (Preto)  
-- <span style="background-color:#0A1E40; color: #ffffff; padding: 2px 6px; border-radius: 4px;">#0A1E40</span> (Azul escuro)  
-- <span style="background-color:#165BAA; color: #ffffff; padding: 2px 6px; border-radius: 4px;">#165BAA</span>, 
-  <span style="background-color:#0065DA; color: #ffffff; padding: 2px 6px; border-radius: 4px;">#0065DA</span>, 
-  <span style="background-color:#40A8F5; color: #000000; padding: 2px 6px; border-radius: 4px;">#40A8F5</span> (Azuis intermediários)  
-- <span style="background-color:#C0C2C7; color: #000000; padding: 2px 6px; border-radius: 4px;">#C0C2C7</span>, 
-  <span style="background-color:#F5F6F8; color: #000000; padding: 2px 6px; border-radius: 4px;">#F5F6F8</span>, 
-  <span style="background-color:#ECEEF2; color: #000000; padding: 2px 6px; border-radius: 4px;">#ECEEF2</span> (Cinzas claros)  
-- <span style="background-color:#24272F; color: #ffffff; padding: 2px 6px; border-radius: 4px;">#24272F</span>, 
-  <span style="background-color:#353841; color: #ffffff; padding: 2px 6px; border-radius: 4px;">#353841</span>, 
-  <span style="background-color:#5F6268; color: #ffffff; padding: 2px 6px; border-radius: 4px;">#5F6268</span> (Cinzas escuros)  
-- <span style="background-color:#FF0000; color: #ffffff; padding: 2px 6px; border-radius: 4px;">#FF0000</span> (Vermelho para alertas)
+
+| Cor     | Código Hex   | Descrição                  |
+|---------|--------------|----------------------------|
+| ⬛️ Preto      | `#000000`    | Texto ou fundo principal     |
+| 🔵 Azul escuro | `#0A1E40`    | Destaques intensos           |
+| 🔷 Azul médio  | `#165BAA`    | Botões ou links principais   |
+| 🔹 Azul claro  | `#0065DA`    | Hover ou interações leves    |
+| 🔹 Azul suave  | `#40A8F5`    | Destaques em áreas claras    |
+| ⚪️ Cinza claro | `#C0C2C7`    | Bordas ou plano de fundo     |
+| ⚪️ Muito claro | `#F5F6F8`    | Fundo padrão de páginas      |
+| ⚪️ Cinza suave | `#ECEEF2`    | Elementos neutros            |
+| ⚫️ Cinza escuro | `#24272F`    | Texto secundário ou ícones   |
+| ⚫️ Cinza médio | `#353841`    | Cabeçalhos ou menus          |
+| ⚫️ Cinza leve  | `#5F6268`    | Legendas ou rodapés          |
+| 🟥 Vermelho     | `#FF0000`    | Alertas ou mensagens de erro |
+
 
 ---
 
