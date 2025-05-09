@@ -3,7 +3,7 @@ const exitButton = () => {
 
     if (buttonExit) {
         sessionStorage.removeItem('usuarioLogado');
-        window.location.replace('../../pages/login/login.html');
+        window.location.replace('pages/login/login.html');
     }
 }
 

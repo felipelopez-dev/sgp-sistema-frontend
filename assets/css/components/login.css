@@ -39,6 +39,11 @@
     margin-bottom: 2rem;
 }
 
+.login-left__card {
+    display: flex;
+    flex-direction: column;
+}
+
 .login-left__label {
     margin-bottom: .5rem;
 }
@@ -62,6 +67,7 @@
     border: none;
     outline: none;
     font-size: 1.8rem;
+    width: 29rem;
 }
 
 
