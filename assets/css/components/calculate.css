@@ -120,7 +120,7 @@
 
 .calculate--input::placeholder {
 	color: var(--text-paragraph-placeholder);
-	font-size: 1.7rem;
+	font-size: 1.4rem;
 	text-align: center;
 }
 

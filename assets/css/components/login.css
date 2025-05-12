@@ -173,6 +173,10 @@
 	.login-right {  
         display: none;
     }
+
+    .login-left__input {
+        width: 23rem;
+    }
 }
 
 @media (min-width:481px) and (max-width: 768px) {

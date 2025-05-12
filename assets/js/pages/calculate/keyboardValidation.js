@@ -1,6 +1,6 @@
 const keyboardManipulation = (e) => {
 
-	  if ((e.key === '-') || (e.key === 'e') || (e.key === ',') || (e.key === '.')) {
+	if ((e.key === '-') || (e.key === 'e') || (e.key === ',') || (e.key === '.') || (e.key === 'ArrowUp') || (e.key === 'ArrowDown')) {
         e.preventDefault();
     }
 }

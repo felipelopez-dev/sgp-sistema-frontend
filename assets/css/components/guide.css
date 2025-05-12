@@ -449,7 +449,7 @@
 	.sgp-aside-left {
 		position: absolute;
 		display: none;
-		width: 100%;
+		width: 65%;
 		left: 10rem;
 		background-color: var(--bg-secondary);
 	}
@@ -481,7 +481,7 @@
 	.sgp-aside-left {
 		position: absolute;
 		display: none;
-		width: 100%;
+		width: 52%;
 		left: 10rem;
 		background-color: var(--bg-secondary);
 	}
